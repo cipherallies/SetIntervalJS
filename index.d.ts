@@ -11,7 +11,7 @@ declare module 'set-interval' {
          * Stop an interval
          * @param key Key that maps to an interval.
          */
-        stop(key: string): void
+        clear(key: string): void
     }
     var out : setInterval;
     export default out;
